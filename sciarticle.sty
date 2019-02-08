@@ -1,0 +1,57 @@
+\ProvidesPackage{sciarticle}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lmodern}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}	%Margins
+\usepackage{chemformula} 	%Chemistry
+%\usepackage{wrapfig} 	 
+\usepackage{parskip}     	%Remove indentation in all paragraphs
+%\usepackage{subfig}	 	%Multiple figures in each figure
+\usepackage{booktabs}		%Quality tables
+%\usepackage{colortbl} 		%Colored tables
+%\usepackage{adjustbox} 	%Change table size
+\usepackage[labelfont=bf,format=plain,labelsep=period,font={small,sf}]{caption}		%Caption formatting
+
+
+%%%%%%%%% FONTS  %%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{tgtermes} 		%times-like font (qtm)
+%\usepackage{mathptmx}		%times font (ptm)
+%\usepackage{helvet}		%helvetica font (phv)
+%\usepackage{lmodern}		%arial font (lmss)
+%\usepackage{anyfontsize}
+
+
+
+
+
+
+%%%%%%%%%% TIPOGRAPHY %%%%%%%%%%%%%%%%%%%%%%
+%\linespread{1.213}		%1.5 MS Word line spreading
+%\setlength{\columnsep}{5mm}  %Change column separation
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}	%microtypography
+
+
+
+%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref} 
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+
+
+
+%%%%%%%%%%%%%  TITLE FORMATTING %%%%%%%%%%%%%%
+\usepackage[explicit]{titlesec}
+%\titleformat{\section}[]{}{}{}{}[]
+		% [hang,display,runin,frame,rightmargin...] 
+		% {Format: font size, font type...}
+ 		% {label: \thesection + desired divider}
+		% {distance between label and title}
+		% {before title}
+		% [after title: \titlerule]
+
+\usepackage{titling}	%provides the \theauthor command
+
+%\renewcommand{\maketitle}{\begin{center}{\huge\thetitle}\vspace{.25cm}\normalsize\theauthor\vspace{.25cm}\end{center}}		%example of custom title
+
